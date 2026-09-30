@@ -1,0 +1,59 @@
+# ─── Python bytecode & caches ──────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ─── Virtual environments ────────────────────────────────────────────────────
+venv/
+env/
+.venv/
+.env/
+
+# ─── Jupyter / IPython ──────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ─── Raw biomechanical data (large binary; hosted on Zenodo) ────────────────
+data/raw/
+data/opensim_processed/
+scratch/
+
+# ─── Pre-computed processed cache (large .npz / .npy / .pkl) ────────────────
+data/processed/*.npz
+data/processed/*.npy
+data/processed/*.pkl
+
+# ─── Trained model checkpoints (PyTorch .pt files) ──────────────────────────
+experiments/
+New_experiments/
+
+# ─── Paper build artefacts (keep source .tex & .bib; exclude compiled files) ─
+paper/main.pdf
+paper/main.aux
+paper/main.bbl
+paper/main.blg
+paper/main.log
+paper/main.out
+paper/main.synctex.gz
+paper/figures/pages/
+paper/figures/page_*.png
+
+# ─── Scratch / temporary scripts ─────────────────────────────────────────────
+scratch/
+
+# ─── OS-generated junk ───────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── IDE / editor settings ───────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ─── Windows-specific ────────────────────────────────────────────────────────
+*.lnk
+ehthumbs.db
