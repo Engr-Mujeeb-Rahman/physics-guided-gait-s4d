@@ -23,4 +23,3 @@ A physics-guided diagonal state-space model (S4D) with FiLM speed conditioning a
   - `benchmark_latency.py`: Latency benchmarking script.
 - `experiments/`: Run configurations and logged metrics.
 - `notebooks/`: Exploratory analysis.
-- `paper/`: Manuscript draft and figures.

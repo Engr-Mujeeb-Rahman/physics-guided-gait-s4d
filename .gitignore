@@ -29,16 +29,17 @@ data/processed/*.pkl
 experiments/
 New_experiments/
 
-# ─── Paper build artefacts (keep source .tex & .bib; exclude compiled files) ─
-paper/main.pdf
-paper/main.aux
-paper/main.bbl
-paper/main.blg
-paper/main.log
-paper/main.out
-paper/main.synctex.gz
-paper/figures/pages/
-paper/figures/page_*.png
+# ─── Paper manuscript, figures, and compilers (local only, do not upload) ──
+paper/
+
+# ─── Internal planning & agent workspace files (local only) ──────────────────
+architecture.md
+design.md
+memory.md
+phases.md
+prd.md
+rules.md
+task.md
 
 # ─── Scratch / temporary scripts ─────────────────────────────────────────────
 scratch/
